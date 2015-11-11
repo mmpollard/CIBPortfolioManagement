@@ -1,0 +1,14 @@
+First, the user must make sure to have python and pandas installed:
+
+Python can be downloaded here: https://www.python.org/downloads/
+
+Pandas can be installed a number of ways. One of the easiest is to install anaconda (http://docs.continuum.io/anaconda/install) and subsequently call "conda install pandas" from the command line. Other possible installations can be explored here: 
+http://pandas.pydata.org/pandas-docs/stable/install.html
+
+In order to run the file (quandl.py), run from the command line:
+python ~/path_to_file/tradestatistics.py ~/path_to_input_file/input_filename.csv
+
+If you've moved your files in to your working directory, simply run:
+python quandl.py input_filename.py
+
+Your output file will be written to a file called output.csv in your working directory.
